@@ -24,7 +24,7 @@ wheels/
 *.png
 *.svg
 *.mp4
-*.txt
+algovis/media/
 
 # Virtual Environment
 venv/
