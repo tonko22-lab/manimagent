@@ -124,7 +124,7 @@ class SlidingWindowScene(Scene):
             # Create animation for window movement and color change
             self.play(
                 window.animate.move_to(cells[self.sliding_window.current_pos]).set_color(color).set_fill(color, opacity=0.2),
-                run_time=0.3
+                run_time=0.4
             )
 
-        self.wait(2)
+        self.wait(3)

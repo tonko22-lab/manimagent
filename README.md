@@ -23,6 +23,7 @@ source venv/bin/activate
 
 2. Install dependencies:
 ```bash
+pip install -U pip
 pip install -r requirements.txt
 ```
 
